@@ -306,7 +306,7 @@ input[type=text], input[type=email], textarea{
   color:#191919 !important;
 }
 .btn-color {
-  background-color:var(--main-brand-background-color); 
+  background-color:var(--main-white-colour); 
   width: 150px;
   color: var(--main-text-colour);
   font-weight: 600;
@@ -318,7 +318,7 @@ input[type=text], input[type=email], textarea{
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .btn-color:hover { 
-  background-color: #fff;
+  background-color:var(--main-brand-background-color); 
   color: var(--main-text-colour);
   border-radius: 5px;
   border: none;
