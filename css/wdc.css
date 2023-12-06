@@ -453,10 +453,12 @@ input[type=text], input[type=email], textarea{
 }
 
 .logo-img {
-  width: 40%;
+  width: 30%;
   display:inline-block;
-  padding:10px;
-  margin: 0 auto;
+  margin: 10px;
+  /* margin: 0 auto; */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
 }
 @media only screen and (min-width:768px) {
   .logo-img {
@@ -465,13 +467,13 @@ input[type=text], input[type=email], textarea{
 }
 @media only screen and (min-width:992px) {
   .logo-img {
-    width: 200px;
+    width: 100px;
   }
 }
 
 /* contact form */
 .contact-input {
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   outline:5px solid transparent
 }
